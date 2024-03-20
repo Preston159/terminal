@@ -4,7 +4,8 @@
   "description": "ANSI Terminal for Puter",
   "main": "exports.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "phoenix": "dev-runner ./run-phoenix-http.json5"
   },
   "author": "Puter Technologies Inc.",
   "license": "AGPL-3.0-only",

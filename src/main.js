@@ -157,7 +157,7 @@ window.main_term = () => {
                 $: 'config',
                 source: params['puter.domain']
                     ? `https://api.${params['puter.domain']}/`
-                    : 'https://api.puter.com/',
+                    : 'http://localhost:5259/',
                 ...params
             }, shellOrigin);
             if ( initialSize ) cw.postMessage({

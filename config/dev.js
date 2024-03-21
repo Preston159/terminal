@@ -17,6 +17,6 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 globalThis.__CONFIG__ = {
-    "origin": "http://127.0.0.1:8082",
-    "shellURL": "http://127.0.0.1:8080",
+    "origin": "http://localhost:8092",
+    "shellURL": "http://localhost:8090",
 };
